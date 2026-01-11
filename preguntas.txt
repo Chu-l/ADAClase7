@@ -1,0 +1,29 @@
+Respondan estas preguntas basándose en lo que hicieron y lo que vimos en la teoría:
+
+1. La Sintaxis (La forma de escribir): Vimos que C es un lenguaje "Estructurado" y de "Bajo/Medio Nivel". ¿Cómo notaron eso al escribir el código? ¿Qué diferencias de "burocracia" (cantidad de líneas para hacer lo mismo) encontraron entre C y JS?
+
+Al escribir código en C, se nota que es un lenguaje estructurado y de bajo/medio nivel porque exige una forma de escritura más estricta y organizada. Es necesario declarar explícitamente los tipos de datos, incluir librerías y definir con claridad la estructura del programa, como la función main.
+
+En comparación con JavaScript, se observa una mayor “burocracia” en C, ya que para realizar una misma tarea se necesitan más líneas de código y más reglas sintácticas. JavaScript, al ser un lenguaje de alto nivel y dinámico, permite escribir programas de forma más directa y con menos declaraciones previas, lo que lo vuelve más flexible y sencillo para tareas simples.
+
+2. El Archivo Guardado: Guardaron uno como .c y otro como .js. Si quisieran ejecutar el archivo de C, ¿podrían hacerlo directamente o necesitarían un paso previo (un "traductor de libros")? Recuerden el concepto de Compilador.
+
+No puede ejecutarse directamente. Es necesario un paso previo, la compilación.
+Un compilador traduce todo el código fuente escrito en C a lenguaje máquina, generando un archivo ejecutable. Recién después de ese proceso el programa puede ejecutarse.
+En cambio, JavaScript no requiere este paso previo, ya que es interpretado por el motor correspondiente.
+
+3. La Ejecución: Sabemos que JavaScript es un lenguaje Interpretado. Si escribieran mal una palabra en JavaScript, ¿cuándo se darían cuenta: antes de empezar o justo en el momento que el programa intenta leer esa línea?
+
+JavaScript es un lenguaje interpretado, lo que significa que el código se ejecuta línea por línea.
+Si se escribe mal una palabra, el error se detecta en el momento en que el programa intenta ejecutar esa línea, no antes de comenzar la ejecución completa del programa.
+
+4. Observación: Miren el código Lenguaje C. ¿Les parece fácil de leer? ¿Entienden todas las palabras? (Fíjense en #include, int, return). Si no las entienden busquen para que sirve cada palabra reservada.
+
+Reconozco algunas. Palabras como #include, int o return son palabras reservadas que cumplen funciones específicas:
+
+#include: permite incluir librerías necesarias para el funcionamiento del programa.
+
+int: define el tipo de dato entero de una variable o función.
+
+return: devuelve un valor y finaliza la ejecución de una función.
+
